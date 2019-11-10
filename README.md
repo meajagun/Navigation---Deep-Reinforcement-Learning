@@ -5,6 +5,7 @@
 # Project 1: Navigation
 
 ![Trained Agent][image1]
+
 Source: Udacity
 
 ### Project Overview
