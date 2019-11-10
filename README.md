@@ -5,7 +5,7 @@
 # Project 1: Navigation
 
 ![Trained Agent][image1]
-
+Source: Udacity
 
 ### Project Overview
 
@@ -29,18 +29,12 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 ### Repository Contents
 This repository contains the files listed below which were successfully used to train the agent to collect yellow bananas.
-
-***1. Navigation.ipynb:*** This file contains the starter code from Udacity's Repository and the implementation of the DQN Function used to train the agent.
-
-***2. dqn_agent.py:*** This file contains the DQN Agent class.
-
-***3. model.py:*** This file contains defined QNetwork architecture.
-
-***4. checkpoint.pth:*** This file contains the trained and saved QNetwork weights.
-
-***5. README.md:*** This file contains the overview of this project and how to understand its contents and implement one of your own.
-
-***6. report.md:*** This file contains a detailed report of the learning algorithm used in this project.
+1. ***Navigation.ipynb:*** This file contains the starter code from Udacity's Repository and the implementation of the DQN Function used to train the agent.
+2. ***dqn_agent.py:*** This file contains the DQN Agent class.
+3. ***model.py:*** This file contains defined QNetwork architecture.
+4. ***checkpoint.pth:*** This file contains the trained and saved QNetwork weights.
+5. ***README.md:*** This file contains the overview of this project and how to understand its contents and implement one of your own.
+6. ***report.md:*** This file contains a detailed report of the learning algorithm used in this project.
 
 ### Instructions
 
@@ -49,16 +43,11 @@ Follow the instructions in `Navigation.ipynb` to get started with training your 
 ### Dependencies
 
 The following are requirments to setup and run the code of this repository:
-
-***1. python 3***
-
-***2. numpy***
-
-***3. PyTorch:*** Installation instructions [click here](https://pytorch.org/get-started/locally/)
-
-***4. Unity ML-Agents:*** Installation instructions [click here](https://github.com/reinforcement-learning-kr/pg_travel/wiki/Installing-Unity-ml-agents-on-Windows)
-
-***5. NVIDIA drivers on local machine***
+* ***python 3***
+* ***numpy***
+* ***PyTorch:*** Installation instructions [click here](https://pytorch.org/get-started/locally/)
+* ***Unity ML-Agents:*** Installation instructions [click here](https://github.com/reinforcement-learning-kr/pg_travel/wiki/Installing-Unity-ml-agents-on-Windows)
+* ***NVIDIA drivers on local machine***
 
 ### Getting Started
 
