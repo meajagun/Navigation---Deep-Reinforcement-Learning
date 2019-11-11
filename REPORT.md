@@ -30,7 +30,17 @@ The network architecture model had three (3) linear layers with RELU as the acti
 * ***Epsilon Greedy policy*** where the agent selects the next action from the action space at random.
 
 The hyperparameters used to train the DQN Agent were:
-* ***n_episodes=2000, max_t=1000, eps_start=1.0, eps_end=0.01, eps_decay=0.995***
+* BUFFER_SIZE = int(1e5) 
+* BATCH_SIZE = 64         
+* GAMMA = 0.99            
+* TAU = 1e-3              
+* LR = 5e-4                
+* UPDATE_EVERY = 4       
+* n_episodes=2000
+* max_t=1000
+* eps_start=1.0
+* eps_end=0.01
+* eps_decay=0.995
 
 
 ### Trained DQN Results
@@ -45,4 +55,4 @@ The figure below shows the trained DQN Agent results with a moving average. The 
 This project has utilized the Deep Q Learning algorithm (DQN). For further and future work, I plant to try the following to see how they perform in comparison to DQN:
 1. ***Double DQN***
 2. ***Dueling DQN***
-3. **Prioritized Experience Replay: *** 
+3. ***Prioritized Experience Replay*** 
